@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Глава 5", "Глава 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMarksTheSpot", "XMarksTheSpot\XMarksTheSpot.csproj", "{97AC2EDF-7822-405F-9363-C291C958F6EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloPrinter", "HelloPrinter\HelloPrinter.csproj", "{8B1C86E1-AF6C-433C-AC60-8259722BA76F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,11 +73,20 @@ Global
 		{97AC2EDF-7822-405F-9363-C291C958F6EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97AC2EDF-7822-405F-9363-C291C958F6EC}.Release|x86.ActiveCfg = Release|Any CPU
 		{97AC2EDF-7822-405F-9363-C291C958F6EC}.Release|x86.Build.0 = Release|Any CPU
+		{8B1C86E1-AF6C-433C-AC60-8259722BA76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1C86E1-AF6C-433C-AC60-8259722BA76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1C86E1-AF6C-433C-AC60-8259722BA76F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B1C86E1-AF6C-433C-AC60-8259722BA76F}.Debug|x86.Build.0 = Debug|Any CPU
+		{8B1C86E1-AF6C-433C-AC60-8259722BA76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1C86E1-AF6C-433C-AC60-8259722BA76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1C86E1-AF6C-433C-AC60-8259722BA76F}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B1C86E1-AF6C-433C-AC60-8259722BA76F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{97AC2EDF-7822-405F-9363-C291C958F6EC} = {0E843B4A-1F31-4B4C-B5CC-3DF61A129648}
+		{8B1C86E1-AF6C-433C-AC60-8259722BA76F} = {0E843B4A-1F31-4B4C-B5CC-3DF61A129648}
 	EndGlobalSection
 EndGlobal
