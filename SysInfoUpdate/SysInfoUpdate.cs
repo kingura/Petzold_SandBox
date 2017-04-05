@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using Microsoft.Win32;
 
-class SysInfoUpdate : Form
+internal class SysInfoUpdate : Form
 {
     protected int iCount;
     protected string[] astrLabels;
@@ -12,7 +12,7 @@ class SysInfoUpdate : Form
     protected int cySpace;
 
     // точка входа
-    static void Main()
+    private static void Main()
     {
         Application.Run(new SysInfoUpdate());
     }
@@ -32,18 +32,19 @@ class SysInfoUpdate : Form
         SystemEvents.DisplaySettingsChanged += new EventHandler(DisplaySettingsChanged);
     }
 
-    void UserPreferenceChanged(object obj, UserPreferenceChangedEventArgs ea)
-    {
-        UpdateAllInfo();
-        Invalidate();
-    }
-    void DisplaySettingsChanged(object obj, EventArgs ea)
+    private void UserPreferenceChanged(object obj, UserPreferenceChangedEventArgs ea)
     {
         UpdateAllInfo();
         Invalidate();
     }
 
-    void UpdateAllInfo()
+    private void DisplaySettingsChanged(object obj, EventArgs ea)
+    {
+        UpdateAllInfo();
+        Invalidate();
+    }
+
+    private void UpdateAllInfo()
     {
         iCount = SysInfoStrings.Count;
         astrLabels = SysInfoStrings.Labels;
@@ -54,7 +55,8 @@ class SysInfoUpdate : Form
         cxCol = sizef.Width + SysInfoStrings.MaxLabelWidth(grfx, Font);
         cySpace = Font.Height;
 
-        AutoScrollMinSize = new Size((int)Math.Ceiling(cxCol + SysInfoStrings.MaxValueWidth(grfx, Font)), cySpace * iCount);
+        AutoScrollMinSize = new Size((int) Math.Ceiling(cxCol + SysInfoStrings.MaxValueWidth(grfx, Font)),
+            cySpace*iCount);
 
         grfx.Dispose();
     }
@@ -64,15 +66,15 @@ class SysInfoUpdate : Form
         base.OnPaint(e);
 
         Graphics grfx = e.Graphics;
-        Brush brush = Brushes.Black;
+        Brush brush = new SolidBrush(ForeColor);
         Point pt = AutoScrollPosition;
 
         for (int i = 0; i < iCount; i++)
         {
-            grfx.DrawString(astrLabels[i], Font, brush, pt.X, pt.Y + cySpace * i);
-            grfx.DrawString(astrValues[i], Font, brush, pt.X + cxCol, pt.Y + cySpace * i);
+            grfx.DrawString(astrLabels[i], Font, brush, pt.X, pt.Y + cySpace*i);
+            grfx.DrawString(astrValues[i], Font, brush, pt.X + cxCol, pt.Y + cySpace*i);
         }
-        
 
+        Console.WriteLine(e.ClipRectangle);
     }
 }
