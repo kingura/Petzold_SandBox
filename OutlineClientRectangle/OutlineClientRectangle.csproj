@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B4A93B22-BB23-4F6E-852E-B4578ECB418A}</ProjectGuid>
+    <ProjectGuid>{94029A97-DBBA-473C-B2C6-A218DB7C1C5B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PolyEllipse</RootNamespace>
-    <AssemblyName>PolyEllipse</AssemblyName>
+    <RootNamespace>OutlineClientRectangle</RootNamespace>
+    <AssemblyName>OutlineClientRectangle</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -34,14 +34,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PolyEllipse</StartupObject>
+    <StartupObject>OutlineClientRectangle</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\PrintableForm\PrintableForm.cs">
       <Link>PrintableForm.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PolyEllipse.cs">
+    <Compile Include="OutlineClientRectangle.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

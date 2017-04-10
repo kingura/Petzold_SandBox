@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B4A93B22-BB23-4F6E-852E-B4578ECB418A}</ProjectGuid>
+    <ProjectGuid>{5928C420-873B-4D15-8590-82976B87BC9D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PolyEllipse</RootNamespace>
-    <AssemblyName>PolyEllipse</AssemblyName>
+    <RootNamespace>Spiral</RootNamespace>
+    <AssemblyName>Spiral</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -34,21 +34,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PolyEllipse</StartupObject>
+    <StartupObject>Spiral</StartupObject>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="..\PrintableForm\PrintableForm.cs">
       <Link>PrintableForm.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PolyEllipse.cs">
+    <Compile Include="Spiral.cs">
       <SubType>Form</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

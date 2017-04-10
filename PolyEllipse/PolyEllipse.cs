@@ -2,9 +2,9 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-class PolyEllipse : Form
+class PolyEllipse : PrintableForm
 {
-    static void Main()
+    static new void Main()
     {
         Application.Run(new PolyEllipse());
     }
@@ -12,28 +12,21 @@ class PolyEllipse : Form
     public PolyEllipse()
     {
         Text = "Ellipse with DrawLines";
-        BackColor = SystemColors.Window;
-        ForeColor = SystemColors.WindowText;
-        ResizeRedraw = true;
     }
 
-    protected override void OnPaint(PaintEventArgs e)
+    protected override void DoPage(Graphics grfx, Color clr, int cx, int cy)
     {
-        // base.OnPaint(e);
-        Graphics grfx = e.Graphics;
-        grfx.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-        grfx.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-        int cx = ClientSize.Width;
-        int cy = ClientSize.Height;
-        float t = (float)(2 * Math.PI / (2*(cx+cy)));
-        int rx = cx/2;
-        int ry = cy/2;
-        PointF[] pointF = new PointF[2 * (cx + cy)];
-        for (int i = 0; i < (2*(cx + cy)); i++)
+        //base.DoPage(grfx, clr, cx, cy);
+        int iNum = 2*(cx + cy);
+        PointF[] aptf = new PointF[iNum];
+
+        for (int i = 0; i < iNum; i++)
         {
-            pointF[i].X = cx/2 + (float) (rx*Math.Cos(i*t));
-            pointF[i].Y = cy/2 + (float)(ry*Math.Sin(i*t));
+            double dAng = i*2*Math.PI/(iNum - 1);
+
+            aptf[i].X = (cx - 1)/2f*(1 + (float) Math.Cos(dAng));
+            aptf[i].Y = (cy - 1) / 2f * (1 + (float)Math.Sin(dAng));
         }
-        grfx.DrawLines(new Pen(ForeColor), pointF);
+        grfx.DrawLines(new Pen(clr), aptf);
     }
 }
