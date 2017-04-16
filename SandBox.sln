@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundRect", "RoundRect\Roun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieChart", "PieChart\PieChart.csproj", "{BEE19942-8DB7-427F-8949-34E0CDADCA96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterPieChart", "BetterPieChart\BetterPieChart.csproj", "{B81E5732-98CD-43EB-AE06-247ADB97014D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -436,6 +438,18 @@ Global
 		{BEE19942-8DB7-427F-8949-34E0CDADCA96}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{BEE19942-8DB7-427F-8949-34E0CDADCA96}.Release|x86.ActiveCfg = Release|Any CPU
 		{BEE19942-8DB7-427F-8949-34E0CDADCA96}.Release|x86.Build.0 = Release|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Debug|x86.Build.0 = Debug|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Release|x86.ActiveCfg = Release|Any CPU
+		{B81E5732-98CD-43EB-AE06-247ADB97014D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -475,5 +489,6 @@ Global
 		{E3BBDF97-F6D4-4B2A-9D1B-881C58A69D8B} = {AEEF40C7-BA6A-41CE-8DD0-B819082EB9B1}
 		{A8F852DD-F381-45CB-9FCD-A2A174AC4011} = {AEEF40C7-BA6A-41CE-8DD0-B819082EB9B1}
 		{BEE19942-8DB7-427F-8949-34E0CDADCA96} = {AEEF40C7-BA6A-41CE-8DD0-B819082EB9B1}
+		{B81E5732-98CD-43EB-AE06-247ADB97014D} = {AEEF40C7-BA6A-41CE-8DD0-B819082EB9B1}
 	EndGlobalSection
 EndGlobal
