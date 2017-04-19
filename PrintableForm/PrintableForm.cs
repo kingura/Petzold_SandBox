@@ -23,7 +23,7 @@ class PrintableForm : Form
         base.OnPaint(e);
 
         e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-        e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+        //e.Graphics.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
 
         DoPage(e.Graphics, ForeColor, ClientSize.Width, ClientSize.Height);
     }
