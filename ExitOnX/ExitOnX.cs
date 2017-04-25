@@ -18,10 +18,18 @@ class ExitOnX : Form
 
     protected override void OnKeyDown(KeyEventArgs kea)
     {
-        if (kea.KeyCode == Keys.X)
-            Close();
+        Keys keys = Control.ModifierKeys;
 
-        //if (kea.KeyCode == (Keys)(int)'X')
-        //    Close();
+        if (  keys == (Keys.Shift | Keys.Control)
+            | keys == Keys.Shift
+            | keys == Keys.Control
+            )
+        {
+            if (kea.KeyCode == Keys.X)
+                Close();
+
+            //if (kea.KeyCode == (Keys)(int)'X')
+            //    Close();
+        }
     }
 }
