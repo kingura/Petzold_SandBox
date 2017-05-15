@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysInfoKeyboard", "SysInfoK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyExamine", "KeyExamine\KeyExamine.csproj", "{A220B50C-634E-40D0-AA7B-4C3885AA1EA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyExamineWithScroll", "KeyExamineWithScroll\KeyExamineWithScroll.csproj", "{A60B430A-F816-4642-BA99-562C883B58B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -528,6 +530,18 @@ Global
 		{A220B50C-634E-40D0-AA7B-4C3885AA1EA1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A220B50C-634E-40D0-AA7B-4C3885AA1EA1}.Release|x86.ActiveCfg = Release|Any CPU
 		{A220B50C-634E-40D0-AA7B-4C3885AA1EA1}.Release|x86.Build.0 = Release|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Debug|x86.Build.0 = Debug|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Release|x86.ActiveCfg = Release|Any CPU
+		{A60B430A-F816-4642-BA99-562C883B58B0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -574,5 +588,6 @@ Global
 		{7B474D4A-694C-4E8D-9C14-A33D7DBF58E6} = {A0838391-2954-4838-BBDF-63AF40D31261}
 		{1E01430E-1A34-482F-802A-0B238B0857B5} = {A0838391-2954-4838-BBDF-63AF40D31261}
 		{A220B50C-634E-40D0-AA7B-4C3885AA1EA1} = {A0838391-2954-4838-BBDF-63AF40D31261}
+		{A60B430A-F816-4642-BA99-562C883B58B0} = {A0838391-2954-4838-BBDF-63AF40D31261}
 	EndGlobalSection
 EndGlobal
