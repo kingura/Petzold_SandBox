@@ -20,6 +20,9 @@ namespace Petzold.ProgrammingWindowsWithCSharp
         public static extern int ShowCaret(IntPtr hwnd);
 
         [DllImport("user32.dll")]
+        public static extern int SetCaretBlinkTime(uint uMSeconds);
+
+        [DllImport("user32.dll")]
         public static extern int HideCaret(IntPtr hwnd);
 
         // Поля
@@ -116,6 +119,7 @@ namespace Petzold.ProgrammingWindowsWithCSharp
         {
             CreateCaret(Control.Handle, IntPtr.Zero, Size.Width, Size.Height);
             SetCaretPos(Position.X, Position.Y);
+            SetCaretBlinkTime(1200);
             Show();
         }
 
