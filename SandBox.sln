@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatSizeTransform", "WhatSi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbitraryCoordinates", "ArbitraryCoordinates\ArbitraryCoordinates.csproj", "{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobyDick", "MobyDick\MobyDick.csproj", "{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -716,6 +718,18 @@ Global
 		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Release|x86.ActiveCfg = Release|Any CPU
 		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Release|x86.Build.0 = Release|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Debug|x86.Build.0 = Debug|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -776,5 +790,6 @@ Global
 		{608F984B-B9D9-492B-8556-AA4B89910B90} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
 		{FAEAD56C-38D3-459C-999C-C2C42782580B} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
 		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
+		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
 	EndGlobalSection
 EndGlobal
