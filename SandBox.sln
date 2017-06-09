@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormWorks", "FormWorks\FormWorks.csproj", "{F1902890-48ED-4F61-98C5-F1562A2EC279}"
 EndProject
@@ -120,6 +120,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatSize", "WhatSize\WhatSize.csproj", "{608F984B-B9D9-492B-8556-AA4B89910B90}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatSizeTransform", "WhatSizeTransform\WhatSizeTransform.csproj", "{FAEAD56C-38D3-459C-999C-C2C42782580B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbitraryCoordinates", "ArbitraryCoordinates\ArbitraryCoordinates.csproj", "{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -702,6 +704,18 @@ Global
 		{FAEAD56C-38D3-459C-999C-C2C42782580B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{FAEAD56C-38D3-459C-999C-C2C42782580B}.Release|x86.ActiveCfg = Release|Any CPU
 		{FAEAD56C-38D3-459C-999C-C2C42782580B}.Release|x86.Build.0 = Release|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -761,5 +775,6 @@ Global
 		{D2436A11-E2F8-4D7F-B797-FD5F48EE51CD} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
 		{608F984B-B9D9-492B-8556-AA4B89910B90} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
 		{FAEAD56C-38D3-459C-999C-C2C42782580B} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
+		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
 	EndGlobalSection
 EndGlobal
