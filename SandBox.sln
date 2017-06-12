@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormWorks", "FormWorks\FormWorks.csproj", "{F1902890-48ED-4F61-98C5-F1562A2EC279}"
 EndProject
@@ -124,6 +124,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbitraryCoordinates", "ArbitraryCoordinates\ArbitraryCoordinates.csproj", "{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobyDick", "MobyDick\MobyDick.csproj", "{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatedRectangles", "RotatedRectangles\RotatedRectangles.csproj", "{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -730,6 +732,18 @@ Global
 		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Release|x86.ActiveCfg = Release|Any CPU
 		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46}.Release|x86.Build.0 = Release|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -791,5 +805,6 @@ Global
 		{FAEAD56C-38D3-459C-999C-C2C42782580B} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
 		{5F7B2941-A5F8-43CC-9E12-91DEAF76EFE6} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
 		{6B4C2FB2-7D80-450A-B58A-B96C4E0DAC46} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
+		{E77C320C-FEBE-4E71-BE5C-1BF1D84E85B6} = {9A9A4996-AB78-42DA-BC63-277466EA5EE1}
 	EndGlobalSection
 EndGlobal

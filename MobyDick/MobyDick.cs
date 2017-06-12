@@ -18,8 +18,6 @@ class MobyDick: PrintableForm
 
     protected override void DoPage(Graphics grfx, Color clr, int cx, int cy)
     {
-        grfx.RotateTransform(45);
-
         //grfx.RotateTransform(-45);
 
         //grfx.RotateTransform(5);
@@ -38,8 +36,6 @@ class MobyDick: PrintableForm
         //grfx.ScaleTransform((float)Math.Sqrt(3), (float)Math.Sqrt(3));
         //grfx.ScaleTransform((float)Math.Sqrt(3), (float)Math.Sqrt(3));
 
-        grfx.TranslateTransform(100, -100);
-
         //grfx.TranslateTransform(cx / 2, cy / 2);
         //grfx.ScaleTransform(1, -1);
 
@@ -51,6 +47,12 @@ class MobyDick: PrintableForm
 
         //grfx.ScaleTransform(-1, 1);
         //grfx.TranslateTransform(cx / 2, cy / 2, MatrixOrder.Append);
+
+        //grfx.RotateTransform(45);
+        //grfx.TranslateTransform(100, -100);
+
+        //grfx.Transform = new Matrix(1, 1, -1, 1, 0, 0);
+        grfx.Transform = new Matrix(0.707f, 0.707f, -0.707f, 0.707f, 0, 0);
 
         grfx.DrawString("Call me Ishmael. Some years ago\x2014never " +
                           "mind how long precisely\x2014having little " +
