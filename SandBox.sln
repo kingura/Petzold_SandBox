@@ -139,6 +139,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockOut", "BlockOut\BlockO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterBlockOut", "BetterBlockOut\BetterBlockOut.csproj", "{B1E1B3A2-7637-4690-8EF4-3FF067B8C631}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptureLoss", "CaptureLoss\CaptureLoss.csproj", "{DD114312-AE72-4E40-8B8D-5F9F88C3029F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -812,6 +814,18 @@ Global
 		{B1E1B3A2-7637-4690-8EF4-3FF067B8C631}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B1E1B3A2-7637-4690-8EF4-3FF067B8C631}.Release|x86.ActiveCfg = Release|Any CPU
 		{B1E1B3A2-7637-4690-8EF4-3FF067B8C631}.Release|x86.Build.0 = Release|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Debug|x86.Build.0 = Debug|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -879,5 +893,6 @@ Global
 		{59B9F37B-F5F3-4AEE-B9D1-C1F43D6A46D3} = {52A45984-116A-47AD-8702-982AF42CD050}
 		{EC4B78E7-2341-4544-A01B-7C88C4ACF4D7} = {52A45984-116A-47AD-8702-982AF42CD050}
 		{B1E1B3A2-7637-4690-8EF4-3FF067B8C631} = {52A45984-116A-47AD-8702-982AF42CD050}
+		{DD114312-AE72-4E40-8B8D-5F9F88C3029F} = {52A45984-116A-47AD-8702-982AF42CD050}
 	EndGlobalSection
 EndGlobal
