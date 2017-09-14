@@ -153,6 +153,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseCursors", "MouseCursor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseCursorsProperty", "MouseCursorsProperty\MouseCursorsProperty.csproj", "{6BC87580-11E6-43A6-AA62-54576D4A5383}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checker", "Checker\Checker.csproj", "{B800F682-8BAC-4F9E-A339-93FFC6C2F617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerWithKeyboard", "CheckerWithKeyboard\CheckerWithKeyboard.csproj", "{C83DB908-A2AD-4DA7-B228-BC53C473D014}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -910,6 +914,30 @@ Global
 		{6BC87580-11E6-43A6-AA62-54576D4A5383}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{6BC87580-11E6-43A6-AA62-54576D4A5383}.Release|x86.ActiveCfg = Release|Any CPU
 		{6BC87580-11E6-43A6-AA62-54576D4A5383}.Release|x86.Build.0 = Release|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Debug|x86.Build.0 = Debug|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Release|x86.ActiveCfg = Release|Any CPU
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617}.Release|x86.Build.0 = Release|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Debug|x86.Build.0 = Debug|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Release|x86.ActiveCfg = Release|Any CPU
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -984,6 +1012,8 @@ Global
 		{2C6DAAEC-D02D-468D-8F73-FC80C835D087} = {52A45984-116A-47AD-8702-982AF42CD050}
 		{C707C54F-D44D-4B9A-A133-BBDDD419B1F3} = {52A45984-116A-47AD-8702-982AF42CD050}
 		{6BC87580-11E6-43A6-AA62-54576D4A5383} = {52A45984-116A-47AD-8702-982AF42CD050}
+		{B800F682-8BAC-4F9E-A339-93FFC6C2F617} = {52A45984-116A-47AD-8702-982AF42CD050}
+		{C83DB908-A2AD-4DA7-B228-BC53C473D014} = {52A45984-116A-47AD-8702-982AF42CD050}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
