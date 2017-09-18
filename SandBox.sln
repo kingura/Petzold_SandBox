@@ -161,7 +161,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerWithChildren", "Chec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerChildWithFocus", "CheckerChildWithFocus\CheckerChildWithFocus.csproj", "{355FD814-7CC2-484E-9EE3-59011325A0CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerWithChildrenAndFocus", "CheckerWithChildrenAndFocus\CheckerWithChildrenAndFocus.csproj", "{E544942F-CD36-4C47-878E-DCFD7849B725}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerWithChildrenAndFocus", "CheckerWithChildrenAndFocus\CheckerWithChildrenAndFocus.csproj", "{9270516A-648E-47AE-9F88-D0DFFE51595B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -974,16 +974,16 @@ Global
 		{355FD814-7CC2-484E-9EE3-59011325A0CA}.Release|Mixed Platforms.Build.0 = Release|x86
 		{355FD814-7CC2-484E-9EE3-59011325A0CA}.Release|x86.ActiveCfg = Release|x86
 		{355FD814-7CC2-484E-9EE3-59011325A0CA}.Release|x86.Build.0 = Release|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Debug|x86.ActiveCfg = Debug|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Debug|x86.Build.0 = Debug|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Release|Any CPU.ActiveCfg = Release|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Release|Mixed Platforms.Build.0 = Release|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Release|x86.ActiveCfg = Release|x86
-		{E544942F-CD36-4C47-878E-DCFD7849B725}.Release|x86.Build.0 = Release|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Debug|x86.ActiveCfg = Debug|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Debug|x86.Build.0 = Debug|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Release|Any CPU.ActiveCfg = Release|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Release|x86.ActiveCfg = Release|x86
+		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1063,7 +1063,7 @@ Global
 		{DE797743-518C-4363-BDDF-979EED250AA6} = {52A45984-116A-47AD-8702-982AF42CD050}
 		{EFB716E9-89F1-4E3C-96A4-54F11F663BDB} = {52A45984-116A-47AD-8702-982AF42CD050}
 		{355FD814-7CC2-484E-9EE3-59011325A0CA} = {52A45984-116A-47AD-8702-982AF42CD050}
-		{E544942F-CD36-4C47-878E-DCFD7849B725} = {52A45984-116A-47AD-8702-982AF42CD050}
+		{9270516A-648E-47AE-9F88-D0DFFE51595B} = {52A45984-116A-47AD-8702-982AF42CD050}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
