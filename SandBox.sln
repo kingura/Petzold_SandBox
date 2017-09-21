@@ -163,6 +163,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerChildWithFocus", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerWithChildrenAndFocus", "CheckerWithChildrenAndFocus\CheckerWithChildrenAndFocus.csproj", "{9270516A-648E-47AE-9F88-D0DFFE51595B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitTestText", "HitTestText\HitTestText.csproj", "{95382A1F-39F6-4439-B8FE-74603ACE1874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scribble", "Scribble\Scribble.csproj", "{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScribbleWithSave", "ScribbleWithSave\ScribbleWithSave.csproj", "{B8B3CD10-9FCE-4048-BA65-B558070EA294}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -984,6 +990,36 @@ Global
 		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Release|Mixed Platforms.Build.0 = Release|x86
 		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Release|x86.ActiveCfg = Release|x86
 		{9270516A-648E-47AE-9F88-D0DFFE51595B}.Release|x86.Build.0 = Release|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Debug|x86.ActiveCfg = Debug|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Debug|x86.Build.0 = Debug|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Release|Any CPU.ActiveCfg = Release|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Release|Mixed Platforms.Build.0 = Release|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Release|x86.ActiveCfg = Release|x86
+		{95382A1F-39F6-4439-B8FE-74603ACE1874}.Release|x86.Build.0 = Release|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Debug|x86.ActiveCfg = Debug|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Debug|x86.Build.0 = Debug|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Release|Any CPU.ActiveCfg = Release|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Release|Mixed Platforms.Build.0 = Release|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Release|x86.ActiveCfg = Release|x86
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB}.Release|x86.Build.0 = Release|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Debug|x86.ActiveCfg = Debug|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Debug|x86.Build.0 = Debug|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Release|Any CPU.ActiveCfg = Release|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Release|x86.ActiveCfg = Release|x86
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1064,6 +1100,9 @@ Global
 		{EFB716E9-89F1-4E3C-96A4-54F11F663BDB} = {52A45984-116A-47AD-8702-982AF42CD050}
 		{355FD814-7CC2-484E-9EE3-59011325A0CA} = {52A45984-116A-47AD-8702-982AF42CD050}
 		{9270516A-648E-47AE-9F88-D0DFFE51595B} = {52A45984-116A-47AD-8702-982AF42CD050}
+		{95382A1F-39F6-4439-B8FE-74603ACE1874} = {52A45984-116A-47AD-8702-982AF42CD050}
+		{4EED2157-C97D-42B3-A5F1-09F3BBDB40CB} = {52A45984-116A-47AD-8702-982AF42CD050}
+		{B8B3CD10-9FCE-4048-BA65-B558070EA294} = {52A45984-116A-47AD-8702-982AF42CD050}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
