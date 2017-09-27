@@ -181,6 +181,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontSizes", "FontSizes\Font
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoldAndItalicBigger", "BoldAndItalicBigger\BoldAndItalicBigger.csproj", "{1DB16D97-3F2D-4BC1-9A16-583FD9E7667E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyFourPointScreenFonts", "TwentyFourPointScreenFonts\TwentyFourPointScreenFonts.csproj", "{4F7459FB-D672-4798-910C-71D448747CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyFourPointPrinterFonts", "TwentyFourPointPrinterFonts\TwentyFourPointPrinterFonts.csproj", "{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1080,6 +1084,30 @@ Global
 		{1DB16D97-3F2D-4BC1-9A16-583FD9E7667E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1DB16D97-3F2D-4BC1-9A16-583FD9E7667E}.Release|x86.ActiveCfg = Release|Any CPU
 		{1DB16D97-3F2D-4BC1-9A16-583FD9E7667E}.Release|x86.Build.0 = Release|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Debug|x86.Build.0 = Debug|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Release|x86.ActiveCfg = Release|Any CPU
+		{4F7459FB-D672-4798-910C-71D448747CD0}.Release|x86.Build.0 = Release|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Debug|x86.Build.0 = Debug|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Release|x86.ActiveCfg = Release|Any CPU
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1167,6 +1195,8 @@ Global
 		{CFBC12E2-21A1-4E49-9102-0182B3BE3B14} = {1E1FAD74-14CE-43F1-9ADE-4476FB2A612D}
 		{3FB9A3E5-BD65-4E08-9B31-3FBDCF89B183} = {1E1FAD74-14CE-43F1-9ADE-4476FB2A612D}
 		{1DB16D97-3F2D-4BC1-9A16-583FD9E7667E} = {1E1FAD74-14CE-43F1-9ADE-4476FB2A612D}
+		{4F7459FB-D672-4798-910C-71D448747CD0} = {1E1FAD74-14CE-43F1-9ADE-4476FB2A612D}
+		{C9749A8D-C3A3-4F02-9068-65DC0F6D0088} = {1E1FAD74-14CE-43F1-9ADE-4476FB2A612D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
