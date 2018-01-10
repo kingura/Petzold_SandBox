@@ -20,7 +20,8 @@ class JeuDeTaquin : Form
     public JeuDeTaquin()
     {
         Text = "Jeu De Taquin";
-        //FormBorderStyle = FormBorderStyle.Fixed3D;
+        FormBorderStyle = FormBorderStyle.Fixed3D;
+        MaximizeBox = false;
     }
 
     protected override void OnLoad(EventArgs e)
