@@ -1,9 +1,10 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 
 class HexDump
 {
-    static private FileStream _fsOutput;
+    //static private FileStream _fsOutput;
 
     public static int Main(string[] astrArgs)
     {
@@ -13,13 +14,16 @@ class HexDump
             return 1;
         }
 
-        _fsOutput = new FileStream("output.txt", FileMode.Create, FileAccess.Write);
+        //_fsOutput = new FileStream("output.txt", FileMode.Create, FileAccess.Write);
+
+        StreamWriter sw = new StreamWriter("sw_output.txt", false, Encoding.ASCII);
+        Console.SetOut(sw);
 
         foreach (string strFileName in astrArgs)
             DumpFile(strFileName);
 
-        _fsOutput.Close();
-
+        //_fsOutput.Close();
+        sw.Close();
         return 0;
     }
 
@@ -37,23 +41,23 @@ class HexDump
             return;
         }
 
-        //Console.WriteLine(strFileName);
-        WriteToFile(strFileName);
+        Console.WriteLine(strFileName);
+        //WriteToFile(strFileName);
 
         DumpStream(fs);
         fs.Close();
     }
 
-    protected static void WriteToFile(string str)
-    {
-        str = str + "\n";
-        byte[] abyBuffer = new byte[str.Length];
-        for (int i = 0; i < str.Length; i++)
-        {
-            abyBuffer[i] = Convert.ToByte(str[i]);
-        }
-        _fsOutput.Write(abyBuffer, 0, str.Length);
-    }
+    //protected static void WriteToFile(string str)
+    //{
+    //    str = str + "\n";
+    //    byte[] abyBuffer = new byte[str.Length];
+    //    for (int i = 0; i < str.Length; i++)
+    //    {
+    //        abyBuffer[i] = Convert.ToByte(str[i]);
+    //    }
+    //    _fsOutput.Write(abyBuffer, 0, str.Length);
+    //}
 
     protected static void DumpStream(Stream stream)
     {
@@ -63,8 +67,8 @@ class HexDump
 
         while ((iCount = stream.Read(abyBuffer, 0, 16)) > 0)
         {
-            //Console.WriteLine(ComposeLine(lAddress, abyBuffer, iCount));
-            WriteToFile(ComposeLine(lAddress, abyBuffer, iCount));
+            Console.WriteLine(ComposeLine(lAddress, abyBuffer, iCount));
+            //WriteToFile(ComposeLine(lAddress, abyBuffer, iCount));
             lAddress += 16;
         }
     }
