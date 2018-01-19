@@ -25,12 +25,17 @@ class ImageFromWeb : PrintableForm
         Stream stream = webres.GetResponseStream();
 
         image = Image.FromStream(stream);
+
+        // Устанавливаем свойства автопрокрутки
+        AutoScroll = true;
+        AutoScrollMinSize = new Size(image.Width, image.Height);
+
         stream.Close();
         webres.Close();
     }
 
     protected override void DoPage(Graphics grfx, Color clr, int cx, int cy)
     {
-        grfx.DrawImage(image, 0, 0);
+        grfx.DrawImage(image, AutoScrollPosition);
     }
 }
