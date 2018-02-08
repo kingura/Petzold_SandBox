@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DEA9CC5A-9E16-49FF-B582-0FC5D7CC1AA5}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>PictureBoxPlusDemo</RootNamespace>
-    <AssemblyName>PictureBoxPlusDemo</AssemblyName>
+    <ProjectGuid>{8E6FA487-FAD2-4572-AB08-8D7ED4BEC6C5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TwoButtons</RootNamespace>
+    <AssemblyName>TwoButtons</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,28 +30,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>PictureBoxPlusDemo</StartupObject>
-  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="TwoButtons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PictureBoxPlus\PictureBoxPlus.csproj">
-      <Project>{32ee2213-0138-414c-b5fc-65b7a2109211}</Project>
-      <Name>PictureBoxPlus</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\PictureBoxPlus\PictureBoxPlus.cs">
-      <Link>PictureBoxPlus.cs</Link>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="PictureBoxPlusDemo.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

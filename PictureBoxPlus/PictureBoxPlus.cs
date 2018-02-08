@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace Petzold.ProgrammingWindowsWithCSharp
 {
-  public class PictureBoxPlus : PictureBox
+  class PictureBoxPlus : PictureBox
   {
     bool bNoDistort = false;
 
