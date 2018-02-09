@@ -305,6 +305,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonStyles", "ButtonStyle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapButtons", "BitmapButtons\BitmapButtons.csproj", "{D9B24B8E-ADE5-45F7-A441-EC72CF09BC24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwnerDrawButtons", "OwnerDrawButtons\OwnerDrawButtons.csproj", "{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1886,6 +1888,18 @@ Global
 		{D9B24B8E-ADE5-45F7-A441-EC72CF09BC24}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{D9B24B8E-ADE5-45F7-A441-EC72CF09BC24}.Release|x86.ActiveCfg = Release|Any CPU
 		{D9B24B8E-ADE5-45F7-A441-EC72CF09BC24}.Release|x86.Build.0 = Release|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Debug|x86.Build.0 = Debug|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Release|x86.ActiveCfg = Release|Any CPU
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2031,6 +2045,7 @@ Global
 		{8E6FA487-FAD2-4572-AB08-8D7ED4BEC6C5} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 		{059BC727-5173-478A-9F8F-1B825DBC3168} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 		{D9B24B8E-ADE5-45F7-A441-EC72CF09BC24} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
+		{43F1F56C-69B7-4D91-B989-0A0B96CB9BF5} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
