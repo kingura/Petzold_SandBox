@@ -23,7 +23,10 @@ class CheckBoxDemo : Form
             achkbox[i] = new CheckBox();
             achkbox[i].Text = astrText[i];
 
-            //achkbox[i].Parent = this;
+            //achkbox[i].TextAlign = ContentAlignment.BottomCenter;
+            //achkbox[i].CheckAlign = ContentAlignment.TopCenter;
+            //achkbox[i].Appearance = Appearance.Button;
+            //achkbox[i].ThreeState = true;
 
             achkbox[i].Location = new Point(2*cxText, (4 + 3*i)*cyText/2);
             achkbox[i].Size = new Size(12*cxText, cyText);
