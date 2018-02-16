@@ -317,6 +317,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxWithLabel", "CheckB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCheckBox", "CustomCheckBox\CustomCheckBox.csproj", "{AB1FD169-4565-40AB-8800-6D5D82A0D83F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoScaleDemo", "AutoScaleDemo\AutoScaleDemo.csproj", "{08D59F4B-BCB1-44FF-9282-CD69601A2275}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1966,6 +1968,18 @@ Global
 		{AB1FD169-4565-40AB-8800-6D5D82A0D83F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{AB1FD169-4565-40AB-8800-6D5D82A0D83F}.Release|x86.ActiveCfg = Release|Any CPU
 		{AB1FD169-4565-40AB-8800-6D5D82A0D83F}.Release|x86.Build.0 = Release|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Debug|x86.Build.0 = Debug|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Release|x86.ActiveCfg = Release|Any CPU
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2117,6 +2131,7 @@ Global
 		{C5D848B1-8914-468B-8E73-5EDEC8851B46} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 		{A5F27DCE-BDBB-4DFB-9FDC-A993C9016BD4} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 		{AB1FD169-4565-40AB-8800-6D5D82A0D83F} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
+		{08D59F4B-BCB1-44FF-9282-CD69601A2275} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
