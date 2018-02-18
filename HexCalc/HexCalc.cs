@@ -12,7 +12,7 @@ class HexCalc : Form
 
   public static void Main()
   {
-    //Application.EnableVisualStyles();
+    Application.EnableVisualStyles();
     Application.Run(new HexCalc());
   }
 
