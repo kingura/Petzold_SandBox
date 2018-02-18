@@ -6,6 +6,7 @@ class AutoScaleDemo : Form
 {
   public static void Main()
   {
+    Application.EnableVisualStyles();
     Application.Run(new AutoScaleDemo());
   }
 
@@ -40,12 +41,13 @@ class AutoScaleDemo : Form
   {
     Button btn = (Button)obj;
 
+#pragma warning disable CS0618 // Type or member is obsolete
     SizeF sizefOld = GetAutoScaleSize(Font);
     Font = new Font(Font.FontFamily, (int)btn.Tag);
     SizeF sizefNew = GetAutoScaleSize(Font);
 
-    Scale(sizefNew.Width / sizefOld.Width,
-                sizefNew.Height / sizefOld.Height);
+    Scale(sizefNew.Width / sizefOld.Width, sizefNew.Height / sizefOld.Height);
+#pragma warning restore CS0618 // Type or member is obsolete
   }
 
 }
