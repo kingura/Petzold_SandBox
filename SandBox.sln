@@ -323,6 +323,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexCalc", "HexCalc\HexCalc.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtons", "RadioButtons\RadioButtons.csproj", "{99523EEC-F6E0-4332-BB07-C9DEEB1793CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorScroll", "ColorScroll\ColorScroll.csproj", "{370D20B1-5D8D-485C-95FF-200A22048A44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2008,6 +2010,18 @@ Global
 		{99523EEC-F6E0-4332-BB07-C9DEEB1793CF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{99523EEC-F6E0-4332-BB07-C9DEEB1793CF}.Release|x86.ActiveCfg = Release|Any CPU
 		{99523EEC-F6E0-4332-BB07-C9DEEB1793CF}.Release|x86.Build.0 = Release|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Debug|x86.Build.0 = Debug|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Release|x86.ActiveCfg = Release|Any CPU
+		{370D20B1-5D8D-485C-95FF-200A22048A44}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2162,6 +2176,7 @@ Global
 		{08D59F4B-BCB1-44FF-9282-CD69601A2275} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 		{48B12675-B050-432B-BECC-EBC538D12ADF} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 		{99523EEC-F6E0-4332-BB07-C9DEEB1793CF} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
+		{370D20B1-5D8D-485C-95FF-200A22048A44} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
