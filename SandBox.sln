@@ -325,6 +325,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorScroll", "ColorScroll\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorTrackBar", "ColorTrackBar\ColorTrackBar.csproj", "{D556B140-E7B3-4E8A-B28C-0E75AFB5C847}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 13", "Chapter 13", "{4D9CE6A2-2475-4A9A-992D-626D282FA406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bezier", "Bezier\Bezier.csproj", "{96F522F8-DD47-49E7-9715-E58BB5E84FC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2032,6 +2036,16 @@ Global
 		{D556B140-E7B3-4E8A-B28C-0E75AFB5C847}.Release|Mixed Platforms.Build.0 = Release|x86
 		{D556B140-E7B3-4E8A-B28C-0E75AFB5C847}.Release|x86.ActiveCfg = Release|x86
 		{D556B140-E7B3-4E8A-B28C-0E75AFB5C847}.Release|x86.Build.0 = Release|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Debug|x86.ActiveCfg = Debug|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Debug|x86.Build.0 = Debug|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Release|Any CPU.ActiveCfg = Release|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Release|Mixed Platforms.Build.0 = Release|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Release|x86.ActiveCfg = Release|x86
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2188,6 +2202,7 @@ Global
 		{99523EEC-F6E0-4332-BB07-C9DEEB1793CF} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 		{370D20B1-5D8D-485C-95FF-200A22048A44} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
 		{D556B140-E7B3-4E8A-B28C-0E75AFB5C847} = {4F85508C-7C2C-4F2D-9C53-74E599B83BC1}
+		{96F522F8-DD47-49E7-9715-E58BB5E84FC5} = {4D9CE6A2-2475-4A9A-992D-626D282FA406}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
