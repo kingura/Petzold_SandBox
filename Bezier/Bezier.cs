@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 class Bezier : Form
 {
-    Point[] apt = new Point[4];
+    protected Point[] apt = new Point[4];
 
     public static void Main()
     {
