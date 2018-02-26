@@ -355,6 +355,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeuDeTaquinWithScramble", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldFashionedMenu", "OldFashionedMenu\OldFashionedMenu.csproj", "{935FB8B2-DE4A-4C58-84ED-0B0101976BA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckAndRadioCheck", "CheckAndRadioCheck\CheckAndRadioCheck.csproj", "{076487EE-6B75-496D-92E4-03F0CB6C450E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2200,6 +2202,18 @@ Global
 		{935FB8B2-DE4A-4C58-84ED-0B0101976BA2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{935FB8B2-DE4A-4C58-84ED-0B0101976BA2}.Release|x86.ActiveCfg = Release|Any CPU
 		{935FB8B2-DE4A-4C58-84ED-0B0101976BA2}.Release|x86.Build.0 = Release|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Debug|x86.Build.0 = Debug|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Release|x86.ActiveCfg = Release|Any CPU
+		{076487EE-6B75-496D-92E4-03F0CB6C450E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2368,6 +2382,7 @@ Global
 		{DB825698-D05C-413E-8A18-740B87494AF2} = {7A1F77D2-A5EA-453A-B2A7-51769A179C43}
 		{B73AE47F-E97C-4B62-BC01-28923CD6A185} = {7A1F77D2-A5EA-453A-B2A7-51769A179C43}
 		{935FB8B2-DE4A-4C58-84ED-0B0101976BA2} = {7A1F77D2-A5EA-453A-B2A7-51769A179C43}
+		{076487EE-6B75-496D-92E4-03F0CB6C450E} = {7A1F77D2-A5EA-453A-B2A7-51769A179C43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}

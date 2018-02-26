@@ -23,6 +23,8 @@ class FirstMainMenu: Form
     MenuItem miSave = new MenuItem("&Save",
                              new EventHandler(MenuFileSaveOnClick),
                              Shortcut.CtrlS);
+    //miSave.Break = true;
+    //miSave.BarBreak = true;
 
     MenuItem miSaveAs = new MenuItem("Save &As...",
                              new EventHandler(MenuFileSaveAsOnClick));
@@ -31,6 +33,7 @@ class FirstMainMenu: Form
 
     MenuItem miExit = new MenuItem("E&xit",
                              new EventHandler(MenuFileExitOnClick));
+    miExit.DefaultItem = true;
 
     // Пункт File
 
