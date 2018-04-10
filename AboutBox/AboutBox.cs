@@ -55,7 +55,7 @@ class AboutDialogBox : Form
         picbox.SizeMode = PictureBoxSizeMode.AutoSize;
         picbox.Location = new Point(label1.Font.Height/2, label1.Font.Height/2);
 
-        label1.Location = new Point(picbox.Height, label1.Font.Height/2);
+        label1.Location = new Point(picbox.Right, label1.Font.Height/2);
 
         int iClientWidth = label1.Right;
 
