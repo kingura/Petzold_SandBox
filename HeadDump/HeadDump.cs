@@ -8,6 +8,7 @@ class HeadDump : Form
   private const string strProgName = "Head Dump";
   private string strFileName = "";
 
+  [STAThread]
   public static void Main()
   {
     Application.Run(new HeadDump());
