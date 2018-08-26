@@ -44,6 +44,7 @@ class PenDashCaps : PrintableForm
     foreach (DashCap dc in Enum.GetValues(typeof(DashCap) ) )
     {
       pen.DashCap = dc;
+      //pen.StartCap = pen.EndCap = (LineCap)dc;
 
       grfx.DrawLine(pen, cx / 8, cy / 4, 7 * cx / 8, cy / 4);
       grfx.TranslateTransform(0, cy / 4);
