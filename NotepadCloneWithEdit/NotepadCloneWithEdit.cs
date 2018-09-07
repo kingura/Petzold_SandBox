@@ -137,19 +137,56 @@ internal class NotepadCloneWithEdit : NotepadCloneWithFile
     txtbox.Clear();
   }
 
-  private void MenuEditFindOnClick(object obj, EventArgs ea)
+  void MenuEditFindOnClick(object obj, EventArgs ea)
   {
-    // ...
+    if (OwnedForms.Length > 0)
+      return;
+
+    txtbox.HideSelection = false;
+
+    FindDialog dlg = new FindDialog();
+
+    dlg.Owner = this;
+    dlg.FindText = strFind;
+    dlg.MatchCase = bMatchCase;
+    dlg.FindDown = bFindDown;
+    dlg.FindNext += new EventHandler(FindDialogOnFindNext);
+    dlg.CloseDlg += new EventHandler(FindReplaceDialogOnCloseDlg);
+    dlg.Show();
   }
 
-  private void MenuEditFindNextOnClick(object obj, EventArgs ea)
+  void MenuEditFindNextOnClick(object obj, EventArgs ea)
   {
-    // ...
+    if (strFind.Length == 0)
+    {
+      if (OwnedForms.Length > 0)
+        return;
+
+      MenuEditFindOnClick(obj, ea);
+    }
+    else
+      FindNext();
   }
 
-  private void MenuEditReplaceOnClick(object obj, EventArgs ea)
+  void MenuEditReplaceOnClick(object obj, EventArgs ea)
   {
-    // ...
+    if (OwnedForms.Length > 0)
+      return;
+
+    txtbox.HideSelection = false;
+
+    ReplaceDialog dlg = new ReplaceDialog();
+
+    dlg.Owner = this;
+    dlg.FindText = strFind;
+    dlg.ReplaceText = strReplace;
+    dlg.MatchCase = bMatchCase;
+    dlg.FindDown = bFindDown;
+    dlg.FindNext += new EventHandler(FindDialogOnFindNext);
+    dlg.Replace += new EventHandler(ReplaceDialogOnReplace);
+    dlg.ReplaceAll += new EventHandler(ReplaceDialogOnReplaceAll);
+    dlg.CloseDlg += new EventHandler(FindReplaceDialogOnCloseDlg);
+    dlg.Show();
   }
 
   private void MenuEditSelectAllOnClick(object obj, EventArgs ea)
@@ -163,5 +200,112 @@ internal class NotepadCloneWithEdit : NotepadCloneWithFile
     txtbox.SelectedText = dt.ToString("t") + " " + dt.ToString("d");
   }
 
+  void FindDialogOnFindNext(object obj, EventArgs ea)
+  {
+    FindReplaceDialog dlg = (FindReplaceDialog)obj;
 
+    strFind = dlg.FindText;
+    bMatchCase = dlg.MatchCase;
+    bFindDown = dlg.FindDown;
+
+    FindNext();
+  }
+
+  bool FindNext()
+  {
+    if (bFindDown)
+    {
+      int iStart = txtbox.SelectionStart + txtbox.SelectionLength;
+
+      while (iStart + strFind.Length <= txtbox.TextLength)
+      {
+        if (string.Compare(strFind, 0, txtbox.Text, iStart,
+                           strFind.Length, !bMatchCase) == 0)
+        {
+          txtbox.SelectionStart = iStart;
+          txtbox.SelectionLength = strFind.Length;
+          return true;
+        }
+        iStart++;
+      }
+    }
+    else
+    {
+      int iStart = txtbox.SelectionStart - strFind.Length;
+
+      while (iStart >= 0)
+      {
+        if (string.Compare(strFind, 0, txtbox.Text, iStart,
+                           strFind.Length, !bMatchCase) == 0)
+        {
+          txtbox.SelectionStart = iStart;
+          txtbox.SelectionLength = strFind.Length;
+          return true;
+        }
+        iStart--;
+      }
+    }
+    MessageBox.Show("Cannot find \"" + strFind + "\"", strProgName,
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+    return false;
+  }
+
+  void ReplaceDialogOnReplace(object obj, EventArgs ea)
+  {
+    FindReplaceDialog dlg = (FindReplaceDialog)obj;
+
+    strFind = dlg.FindText;
+    strReplace = dlg.ReplaceText;
+    bMatchCase = dlg.MatchCase;
+
+    if (string.Compare(strFind, txtbox.SelectedText, !bMatchCase) == 0)
+    {
+      txtbox.SelectedText = strReplace;
+    }
+    FindNext();
+  }
+
+  void ReplaceDialogOnReplaceAll(object obj, EventArgs ea)
+  {
+    FindReplaceDialog dlg = (FindReplaceDialog)obj;
+
+    string str = txtbox.Text;
+    strFind = dlg.FindText;
+    strReplace = dlg.ReplaceText;
+    bMatchCase = dlg.MatchCase;
+
+    if (bMatchCase)
+    {
+      str = str.Replace(strFind, strReplace);
+    }
+    else
+    {
+      for (int i = 0; i < str.Length - strFind.Length;)
+      {
+        if (String.Compare(str, i, strFind, 0,
+                                 strFind.Length, true) == 0)
+        {
+          str = str.Remove(i, strFind.Length);
+          str = str.Insert(i, strReplace);
+          i += strReplace.Length;
+        }
+        else
+        {
+          i += 1;
+        }
+      }
+    }
+    if (str != txtbox.Text)
+    {
+      txtbox.Text = str;
+      txtbox.SelectionStart = 0;
+      txtbox.SelectionLength = 0;
+      txtbox.Modified = true;
+    }
+  }
+
+  void FindReplaceDialogOnCloseDlg(object obj, EventArgs ea)
+  {
+    txtbox.HideSelection = true;
+  }
 }
