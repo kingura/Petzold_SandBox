@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91A5E70D-1E26-482D-8296-5B5B377E0182}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NotepadCloneWithFormat</RootNamespace>
+    <AssemblyName>NotepadCloneWithFormat</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>NotepadCloneWithFormat</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\NotepadCloneNoMenu\NotepadCloneNoMenu.cs">
+      <Link>NotepadCloneNoMenu.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\NotepadCloneWithEdit\FindReplaceDialog.cs">
+      <Link>FindReplaceDialog.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\NotepadCloneWithEdit\NotepadCloneWithEdit.cs">
+      <Link>NotepadCloneWithEdit.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\NotepadCloneWithFile\NotepadCloneWithFile.cs">
+      <Link>NotepadCloneWithFile.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\NotepadCloneWithRegistry\NotepadCloneWithRegistry.cs">
+      <Link>NotepadCloneWithRegistry.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotepadCloneWithFormat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
