@@ -487,6 +487,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadCloneWithEdit", "Not
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadCloneWithFormat", "NotepadCloneWithFormat\NotepadCloneWithFormat.csproj", "{91A5E70D-1E26-482D-8296-5B5B377E0182}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerateEnumeration", "EnumerateEnumeration\EnumerateEnumeration.csproj", "{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3034,6 +3036,18 @@ Global
 		{91A5E70D-1E26-482D-8296-5B5B377E0182}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{91A5E70D-1E26-482D-8296-5B5B377E0182}.Release|x86.ActiveCfg = Release|Any CPU
 		{91A5E70D-1E26-482D-8296-5B5B377E0182}.Release|x86.Build.0 = Release|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Debug|x86.Build.0 = Debug|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Release|x86.ActiveCfg = Release|Any CPU
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3263,6 +3277,7 @@ Global
 		{9A55B4FC-31C6-4CC2-9795-9D37C13C4BA2} = {3AF8A698-9013-4127-B0F3-080CC25E4A54}
 		{AC11F8C6-128E-4C16-8156-C2EC52858011} = {3AF8A698-9013-4127-B0F3-080CC25E4A54}
 		{91A5E70D-1E26-482D-8296-5B5B377E0182} = {3AF8A698-9013-4127-B0F3-080CC25E4A54}
+		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052} = {3AF8A698-9013-4127-B0F3-080CC25E4A54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
