@@ -491,6 +491,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerateEnumeration", "Enu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentVars", "EnvironmentVars\EnvironmentVars.csproj", "{9CE1CF49-22C2-4FE5-AF73-F4E0BCAB5877}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerateEnumerationCombo", "EnumerateEnumerationCombo\EnumerateEnumerationCombo.csproj", "{2BAE0110-6C0A-4DD9-B962-B62697E96E09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3062,6 +3064,18 @@ Global
 		{9CE1CF49-22C2-4FE5-AF73-F4E0BCAB5877}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{9CE1CF49-22C2-4FE5-AF73-F4E0BCAB5877}.Release|x86.ActiveCfg = Release|Any CPU
 		{9CE1CF49-22C2-4FE5-AF73-F4E0BCAB5877}.Release|x86.Build.0 = Release|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Debug|x86.Build.0 = Debug|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Release|x86.ActiveCfg = Release|Any CPU
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3293,6 +3307,7 @@ Global
 		{91A5E70D-1E26-482D-8296-5B5B377E0182} = {3AF8A698-9013-4127-B0F3-080CC25E4A54}
 		{6F2B1991-02D2-46AE-8B71-5AD7A0DC0052} = {3AF8A698-9013-4127-B0F3-080CC25E4A54}
 		{9CE1CF49-22C2-4FE5-AF73-F4E0BCAB5877} = {3AF8A698-9013-4127-B0F3-080CC25E4A54}
+		{2BAE0110-6C0A-4DD9-B962-B62697E96E09} = {3AF8A698-9013-4127-B0F3-080CC25E4A54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
