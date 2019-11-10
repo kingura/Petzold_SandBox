@@ -210,17 +210,17 @@ class NotepadCloneWithFile: NotepadCloneWithRegistry
     SaveFileDlg();
   }
 
-  private void MenuFileSetupOnClick(object sender, EventArgs e)
+  protected virtual void MenuFileSetupOnClick(object sender, EventArgs e)
   {
     MessageBox.Show("Page Setup not yet implemented!", strProgName);
   }
 
-  private void MenuFilePreviewOnClick(object sender, EventArgs e)
+  protected virtual void MenuFilePreviewOnClick(object sender, EventArgs e)
   {
     MessageBox.Show("Print Preview not yet implemented!", strProgName);
   }
 
-  private void MenuFilePrintOnClick(object sender, EventArgs e)
+  protected virtual void MenuFilePrintOnClick(object sender, EventArgs e)
   {
     MessageBox.Show("Print not yet implemented!", strProgName);
   }
