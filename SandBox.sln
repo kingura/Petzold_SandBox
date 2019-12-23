@@ -547,6 +547,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitTwoProportional", "Spl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTreeView", "SimpleTreeView\SimpleTreeView.csproj", "{BD984F30-93A3-4E74-884C-415D22AC8D55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoriesAndFiles", "DirectoriesAndFiles\DirectoriesAndFiles.csproj", "{497394B8-42B2-40A4-A234-BA0551E5366A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3416,6 +3418,18 @@ Global
 		{BD984F30-93A3-4E74-884C-415D22AC8D55}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{BD984F30-93A3-4E74-884C-415D22AC8D55}.Release|x86.ActiveCfg = Release|Any CPU
 		{BD984F30-93A3-4E74-884C-415D22AC8D55}.Release|x86.Build.0 = Release|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Debug|x86.Build.0 = Debug|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Release|x86.ActiveCfg = Release|Any CPU
+		{497394B8-42B2-40A4-A234-BA0551E5366A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3672,6 +3686,7 @@ Global
 		{760158BE-49F8-400B-B2C2-8218BAC90596} = {7A3F8902-0876-4AA1-A451-56716EF306BE}
 		{0F643266-1EAB-4102-A527-9230CF2735B6} = {7A3F8902-0876-4AA1-A451-56716EF306BE}
 		{BD984F30-93A3-4E74-884C-415D22AC8D55} = {7A3F8902-0876-4AA1-A451-56716EF306BE}
+		{497394B8-42B2-40A4-A234-BA0551E5366A} = {7A3F8902-0876-4AA1-A451-56716EF306BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
