@@ -561,6 +561,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetafileViewer", "MetafileV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateMetafile", "CreateMetafile\CreateMetafile.csproj", "{400B6D1E-8D0E-4578-B3A5-7974818487FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateMetafileReload", "CreateMetafileReload\CreateMetafileReload.csproj", "{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3502,6 +3504,18 @@ Global
 		{400B6D1E-8D0E-4578-B3A5-7974818487FB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{400B6D1E-8D0E-4578-B3A5-7974818487FB}.Release|x86.ActiveCfg = Release|Any CPU
 		{400B6D1E-8D0E-4578-B3A5-7974818487FB}.Release|x86.Build.0 = Release|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Debug|x86.Build.0 = Debug|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Release|x86.ActiveCfg = Release|Any CPU
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3764,6 +3778,7 @@ Global
 		{6A55FC0D-2EA4-4F38-962D-6D6789B1193D} = {7A3F8902-0876-4AA1-A451-56716EF306BE}
 		{0A61A99A-6EB6-4E3A-94CE-E18200D5749B} = {003D93B4-E7F9-42DC-9FDE-5F537A9AA7DB}
 		{400B6D1E-8D0E-4578-B3A5-7974818487FB} = {003D93B4-E7F9-42DC-9FDE-5F537A9AA7DB}
+		{BBF53CCC-57CA-4CC9-91DA-CFA01516479D} = {003D93B4-E7F9-42DC-9FDE-5F537A9AA7DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792F8F10-0DAC-4CB1-864A-F6D1777764E2}
